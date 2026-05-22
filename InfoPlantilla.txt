@@ -1,0 +1,10 @@
+COLOR	C010000	;La primer letra define el tipo de variable (C -> Carácter)
+MARCA	C015000 ;Los números definen la cantidad de caracteres que va a tener
+MODELO	C009000
+PRECIO	N011002	;En numeros se definen en los primeros 3 números la cantidad de enteros, y los últimos 3 números definen la cantidad de decimales
+BL:X	N015004
+BL:Y	N015004
+BL:NAME	C020000
+BL:XSCALE	N004002		;Las letras BL se usan para referirse a los bloques
+BL:YSCALE	N004002
+BL:ORIENT	N004002
