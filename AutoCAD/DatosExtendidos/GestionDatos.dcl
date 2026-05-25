@@ -3,7 +3,7 @@ gestion_datos : dialog {
   
   // Contenedor principal
   : boxed_column {
-    label = "Información del Objeto";
+    label = "Informacion del Objeto";
     
     : edit_box { 
       label = "ID Equipo:"; 
@@ -18,7 +18,6 @@ gestion_datos : dialog {
     }
   }
 
-  // Fila de botones
   : row {
     alignment = centered;
     : button { 
